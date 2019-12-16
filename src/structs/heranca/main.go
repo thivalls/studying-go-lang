@@ -15,4 +15,5 @@ func (c Car) carInfo() string {
 func main() {
 	car1 := Car{Name: "Corolla", Year: 2020, Color: "Red"}
 
-	fmt.Println(car1.carInfo()
+	fmt.Println(car1.carInfo())
+}
