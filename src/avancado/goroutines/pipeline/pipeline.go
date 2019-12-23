@@ -1,8 +1,8 @@
-package main
+package pipeline
 
 import "fmt"
 
-func main() {
+func pipeline() {
 	numbers := generate(2, 4, 6)
 	result := divide(numbers)
 
